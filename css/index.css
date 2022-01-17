@@ -70,9 +70,7 @@
   margin: 0 auto;
   padding-top: 50px;
   width: 100%;
-  /* max-width: 790px; */
   align-items: center;
-  /* gap: 100px; */
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
@@ -88,7 +86,6 @@
 }
 
 div.image img {
-  /* margin: 0 10px; */
   height: 100%;
   width: 300px;
 }
@@ -260,8 +257,6 @@ h3 {
   right: 0;
   top: 0;
   left: 0;
-  /* height: 20%;
-  width: 50%; */
 }
 
 .empty-div-2 {
@@ -431,7 +426,6 @@ a > span {
 
   .text-box {
     width: 100%;
-    /* margin-right: 0; */
   }
 
   .text {
