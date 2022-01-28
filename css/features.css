@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Utilities */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+/* Main styling */
+
+.box {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.card {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.card-1 {
+  background-color: #fcf2c6;
+}
+
+.card-2 {
+  background-color: #e7f0e4;
+}
+
+.sub-heading {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.heading {
+  color: #1c1e21;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  /* line-height: calc(1.5 * 28px); */
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.text-box {
+  padding: 0 32px;
+}
+
+span.text-box p {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 16px 0;
+}
+
+div.paragraph > p {
+  font-size: 16px;
+  line-height: ;
+}
