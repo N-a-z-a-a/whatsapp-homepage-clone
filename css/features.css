@@ -295,9 +295,29 @@ a > span {
 }
 
 /* For mobile view */
+/* Header */
 @media screen and (max-width: 767px) {
   .header {
     display: none;
+  }
+
+  /* Main styling */
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-box {
+    padding: 0 13px;
+  }
+
+  .extra {
+    padding: 0 10px;
+    white-space: break-spaces;
+  }
+
+  div.image img {
+    width: 270px;
   }
 
   /* Footer */
@@ -340,6 +360,7 @@ a > span {
 }
 
 /* For Tablet view */
+/* Header */
 @media (min-width: 768px) and (max-width: 920px) {
   .nav-links .link-list {
     margin-right: 15px;
@@ -350,6 +371,7 @@ a > span {
   }
 }
 
+/* Footer */
 @media (min-width: 1024px) {
   .footer-wrapper {
     justify-content: center;
