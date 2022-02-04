@@ -73,7 +73,9 @@
 
 .box {
   grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(16, 1fr); */
   column-gap: 20px;
+  row-gap: 20px;
 }
 
 .card {
@@ -88,6 +90,12 @@
 .card-2 {
   background-color: #e7f0e4;
   height: fit-content;
+}
+
+.card-3 {
+  background-color: #fcf2c6;
+  grid-column: 2;
+  grid-row: 1.6;
 }
 
 .sub-heading {
@@ -179,8 +187,11 @@ div.image img {
 
 /* Footer Section */
 
-footer > div:nth-child(2n) {
+footer {
   background-color: #1c1e21;
+}
+
+footer > div:nth-child(2n) {
   height: 60px;
   padding-top: 20px;
 }

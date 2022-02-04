@@ -94,13 +94,17 @@ div.image img {
   color: #1c1e21;
 }
 
+article {
+  padding-bottom: 32px;
+}
+
 .title {
   font-size: 33px;
   line-height: 43px;
   font-weight: 400;
 }
 
-h2.title:nth-child(2n) {
+h2.title {
   padding-bottom: 10px;
 }
 
@@ -120,6 +124,50 @@ h2.title:nth-child(2n) {
 sup {
   position: relative;
   top: 4px;
+}
+
+ul.lists > li.list-item {
+  padding-bottom: 16px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-item > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.list-item > a > * {
+  color: #1cb39b;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fa-android,
+.fa-apple {
+  padding-right: 16px;
+}
+
+.fa-desktop {
+  padding-right: 12px;
+}
+
+a > i.fa-angle-right {
+  font-weight: 600;
+  position: relative;
+  top: 0;
+}
+
+ul.lists > .list-item:nth-child(2) a > .fa-angle-right {
+  top: 1px;
+}
+
+span.tag:hover {
+  text-decoration: underline;
 }
 
 .btn {
