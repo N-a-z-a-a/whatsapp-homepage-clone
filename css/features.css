@@ -74,8 +74,8 @@
 .box {
   grid-template-columns: repeat(2, 1fr);
   /* grid-template-rows: repeat(16, 1fr); */
-  column-gap: 20px;
-  row-gap: 20px;
+  column-gap: 25px;
+  row-gap: 25px;
 }
 
 .card {
@@ -93,9 +93,17 @@
 }
 
 .card-3 {
-  background-color: #fcf2c6;
+  background-color: #f0f4f9;
   grid-column: 2;
   grid-row: 1.6;
+  margin-top: -275px;
+  padding-bottom: 0;
+}
+
+.card-4 {
+  background-color: #d8e8ea;
+  padding-bottom: 0;
+  margin-top: -350px;
 }
 
 .sub-heading {
@@ -183,6 +191,28 @@ div.image img {
 .second-card,
 .third-card {
   margin-top: -50px;
+}
+
+/* div.texts + div {
+  display: none;
+} */
+
+.img-c3 {
+  justify-content: flex-end;
+}
+
+.crop {
+  color: #39b3ed;
+  text-decoration: none;
+}
+
+.crop:hover {
+  text-decoration: underline;
+}
+
+h6.extra {
+  font-weight: 400;
+  padding-bottom: 40px;
 }
 
 /* Footer Section */
@@ -316,6 +346,12 @@ a > span {
   .box {
     display: flex;
     flex-direction: column;
+    row-gap: 0;
+  }
+
+  .card-3,
+  .card-4 {
+    margin-top: 0;
   }
 
   .text-box {
@@ -327,8 +363,16 @@ a > span {
     white-space: break-spaces;
   }
 
+  h6.extra {
+    white-space: normal;
+  }
+
   div.image img {
     width: 270px;
+  }
+
+  div.texts + div {
+    display: block;
   }
 
   /* Footer */
@@ -392,3 +436,5 @@ a > span {
     width: 20%;
   }
 }
+
+/* When you wake up, fix the .text-box padding for tablet and find max-width for it. Check your paper */
