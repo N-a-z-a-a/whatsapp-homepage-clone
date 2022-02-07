@@ -104,6 +104,17 @@
   background-color: #d8e8ea;
   padding-bottom: 0;
   margin-top: -350px;
+  height: fit-content;
+}
+
+.card-5 {
+  background-color: #e7f0e4;
+}
+
+.card-6 {
+  background-color: #fcf2c6;
+  padding-top: 0;
+  margin-top: -510px;
 }
 
 .sub-heading {
@@ -150,6 +161,10 @@ div.paragraph > p,
 div.image img {
   height: 100%;
   width: 350px;
+}
+
+.card-4 div.image img {
+  width: 400px;
 }
 
 .image-container {
@@ -213,6 +228,23 @@ div.image img {
 h6.extra {
   font-weight: 400;
   padding-bottom: 40px;
+}
+
+.circle-container {
+  height: 350px;
+  width: 350px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.circle {
+  background-color: #77d7c8;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
 }
 
 /* Footer Section */
@@ -354,6 +386,10 @@ a > span {
     margin-top: 0;
   }
 
+  .card-4 {
+    margin-bottom: -3px;
+  }
+
   .text-box {
     padding: 0 13px;
   }
@@ -371,8 +407,17 @@ a > span {
     width: 270px;
   }
 
+  .card-4 div.image img {
+    width: 270px;
+  }
+
   div.texts + div {
     display: block;
+  }
+
+  .circle-container {
+    height: 272px;
+    width: 272px;
   }
 
   /* Footer */
